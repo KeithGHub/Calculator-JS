@@ -11,7 +11,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: hsl(0, 0%, 15%);
   border-radius: 15px;
-  max-width: 50px;
+  max-width: 500px;
   overflow: hidden;
 }
 
@@ -22,6 +22,7 @@ body {
   text-align: left;
   border: none;
   background-color: hsl(0, 0%, 20%);
+  color: white;
 }
 
 #keys {
@@ -49,4 +50,16 @@ button:hover {
 
 button:active {
   background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn {
+  background-color: hsl(35, 100%, 55%);
+}
+
+.operator-btn:hover {
+  background-color: hsl(35, 100%, 65%);
+}
+
+.operator-btn:active {
+  background-color: hsl(35, 100%, 75%);
 }
